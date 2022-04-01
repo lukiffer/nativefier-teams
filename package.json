@@ -1,0 +1,15 @@
+{
+  "name": "nativefier-teams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "nativefier --name \"Microsoft Teams - $TEAMS_IDENTIFIER\" --icon './icon.icns' 'https://teams.microsoft.com/'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nativefier": "^46.2.0"
+  }
+}

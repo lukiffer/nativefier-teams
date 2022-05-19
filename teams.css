@@ -1,0 +1,12 @@
+.app-header-bar {
+  background: #0a0a0a !important;
+  -webkit-app-region: drag;
+}
+
+.ts-waffle {
+  display: none !important;
+}
+
+.app-list-item:last-child {
+  display: none;
+}

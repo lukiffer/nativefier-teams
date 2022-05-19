@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "nativefier --name \"Microsoft Teams - $TEAMS_IDENTIFIER\" --icon './icon.icns' 'https://teams.microsoft.com/'"
+    "build": "nativefier 'https://teams.microsoft.com/' --name \"Microsoft Teams - $TEAMS_IDENTIFIER\" --icon './icon.icns' --counter --inject './teams.css' --internal-urls '.*(teams\\.microsoft\\.com|login\\.microsoftonline\\.com).*' --title-bar-style hiddenInset --single-instance --darwin-dark-mode-support --background-color '#0a0a0a'"
   },
   "keywords": [],
   "author": "",
